@@ -1,0 +1,526 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+html {
+    background: #272727;
+    scroll-behavior: smooth;
+      
+}
+
+
+.centro {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.topo {
+    display: flex;
+    align-items: space-around;
+    background: #272727;
+    align-items: center;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu ul li {
+    list-style: none;
+    margin-top: -60px;
+    margin-left: 20px;
+}
+
+
+
+.menu ul li a {
+    background: #2081c3;
+    color: #ffffff;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 15px;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.menu ul li a:hover {
+    background: #289be7;
+}
+
+.banner img {
+    width: 100%;
+    margin-bottom: 1%;
+}
+
+.site {
+    background: #585858;
+}
+
+.sites {
+    border-radius: 10px;
+    width: 100%;
+}
+
+.sites h2 {
+    color: #2081c3;
+    font-size: 25pt;
+}
+
+
+
+.projetos div {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    ;
+    padding: 10px;
+    margin-bottom: 1%;
+}
+.projetos div a img {
+    transition: 0.2s;
+}
+
+.projeto-hover{
+    position: absolute;
+    width: 10%;
+    color: white;
+    transition: 0.2s;
+    display: none;
+}
+
+.img-hover:hover {
+    transform: scale(1.1);
+}
+
+.sobre {
+    background: #474747;
+    width: 100%
+}
+
+
+.sobre div h2 {
+    font-size: 30pt;
+    padding-top: 10px;
+    text-decoration: underline;
+    color: #ffffff;
+    font-weight: 400;
+    text-align: center;
+}
+
+.sobre div p {
+    font-size: 25pt;
+    padding: 20px;
+    color: #ffffff;
+    font-weight: 300;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.equipe div {
+    display: flex;
+    align-items: center;
+}
+
+.conteudoEquipe {
+    flex-direction: column;
+}
+
+.equipe {
+    width: 80%;
+    background: #1d94e4;
+    margin: 0 auto;
+}
+
+.equipe h2 {
+    width: 100px;
+    font-size: 40pt;
+    align-self: center;
+}
+
+.caixa-equipe {
+    padding: 20px;
+}
+
+.caixa-equipe img {
+    position: relative;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+
+.caixa-equipe p,
+h3 {
+    width: 50%;
+    text-align: center;
+}
+
+.caixa-equipe h3 {
+    font-size: 25pt;
+}
+
+.caixa-equipe h4 {
+    font-size: 20pt;
+    margin-bottom: 3%
+}
+
+.white {
+    color: white;
+
+}
+
+.servicos {
+    width: 100%;
+    background: #7b7b7b;
+    color: #fff;
+
+}
+
+.servicos h2 {
+    font-size: 40pt;
+    font-weight: 300;
+    width: 200px;
+}
+
+.conteudo-servicos {
+    display: flex;
+}
+
+
+.conteudo-servicos img {
+    width: 70%;
+}
+
+.conteudo-servicos p {
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.conteudo-servicos div{
+    text-align: center;
+    
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-size: 2rem;
+    padding: 5% 5% 0 5%;
+}
+
+.contato-form div {
+    display: flex;
+    flex-direction: column;
+}
+
+.contato-form input {
+    width: 350px;
+    padding: 10px;
+    margin: 0 10px 6% 0;
+    border-radius: 20px;
+}
+
+.assunto button {
+    width: 50%;
+    padding: 10px;
+    border: none;
+    background: #1d94e4;
+    align-self: center;
+    margin-top: 10px;
+
+}
+
+.assunto {
+    display: flex;
+    flex-direction: column;
+}
+
+.contato p {
+    font-size: 2rem;
+    width: 20%;
+    color: #fff;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+textarea {
+    resize: none;
+    border-radius: 20px;
+}
+
+footer {
+    background: #474747;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    text-align: center;
+}
+
+.img_footer {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.img_footer img {
+    width: 10%;
+}
+
+.img_footer p {
+    padding-bottom: 10px;
+    color: rgb(187, 187, 187);
+    font-size: 17px;
+}
+
+.menu_rodape div {
+    display: inline;
+}
+
+.menu_rodape div a {
+    justify-content: center;
+    margin: 10px;
+    text-decoration: none;
+    color: rgb(182, 182, 182);
+    font-size: 20px;
+}
+
+#gmd {
+    color: rgb(187, 187, 187);
+    padding: 10px;
+    font-size: 12px;
+}
+
+.dev {
+    background: #272727;
+    width: 100%;
+}
+
+.dev div {
+    display: inline-flex;
+    margin: 0 auto;
+}
+
+.dev div h2 {
+    
+    color: white;
+}
+
+.dev img {
+    width: 20%;
+    margin-left:1%;
+}
+
+.menu-mobile{
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 20px;
+    width: 10%;
+    background: transparent;
+    border: none;
+}
+
+.fechar-menu{
+    display: none;
+    position: relative;
+    top: 20px;
+    width: 10%;
+    background: transparent;
+    border: none;
+}
+
+
+
+
+@media (max-width: 600px){
+
+    .menu{
+        position: fixed;
+        height: 100%;
+        background:#636363;
+        z-index: 9999;
+        padding: 10px;
+    
+        margin: 0;
+        top: 0;
+        max-width: 200px;
+        width: 50%;
+        right: -250px;
+    
+        transition: right .5s ease-in-out;
+      }
+
+      .menu-ativo .menu{
+        right: 0px;
+      }
+    
+      .menu ul{
+        flex-direction: column;
+        text-align: center;
+      }
+    
+      .menu ul li{
+        margin: 10%;
+      }
+    
+      .menu ul ul{
+        position: relative;
+      }
+    
+      .menu ul li a {
+        padding: 13px 20px;
+        margin-top: 20px;
+        background: #4ec6bf;
+      }
+      
+      .submenu li{
+       padding-top: 15px;
+      }
+    
+      .submenu li a{
+        font-size: 10px;
+      }
+
+    .menu-mobile {
+        display: block;
+    }
+
+    .fechar-menu {
+        display: block;
+    }
+
+    .banner img {
+        display:none;
+    }
+
+    .sites h2{
+        text-align:center;
+        margin-bottom: 30px;
+    }
+
+    .projetos img {
+        width: 100%;
+        margin-bottom: 1%;
+    }
+
+    .projetos div {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+   }
+
+   .sobre div h2 {
+    margin: 0 auto;
+}
+
+
+
+   .equipe div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conteudoEquipe {
+    flex-direction: column;
+}
+
+.equipe {
+    width: 80%;
+    background: #1d94e4;
+    margin: 0 auto;
+}
+
+.equipe h2 {
+width: 100%;
+margin: 0 auto;
+}
+
+.caixa-equipe {
+    padding: 20px;
+}
+
+.caixa-equipe img {
+    position: relative;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+
+.caixa-equipe p,
+h3 {
+    width: 50%;
+    text-align: center;
+}
+
+.caixa-equipe h3 {
+    font-size: 25pt;
+}
+
+.caixa-equipe h4 {
+    font-size: 20pt;
+    margin-bottom: 3%
+}
+
+.caixa-equipe p{
+    margin-bottom: 10%;
+}
+
+.conteudo-servicos {
+    display: flex;
+    flex-direction: column;
+}
+
+.conteudo-servicos div{
+    width: 100%;
+    justify-content: center;
+    margin-left: 7px;
+}
+
+
+.formulario {
+    font-size: 15pt;
+    display: flex;
+    flex-direction: column;
+}
+
+.contato-form div {
+    flex-direction: column;
+}
+
+.contato-form input {
+    width: 300px;
+}
+
+.contato p {
+    font-size: 2rem;
+    width: 70%;
+    color: #fff;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.img_footer img{
+    width: 30%
+}
+
+.dev div{
+    justify-content: center;
+}
+
+}
+
