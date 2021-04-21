@@ -333,6 +333,10 @@ footer {
     border: none;
 }
 
+.menu-mobile img {
+    width: 85%;
+}
+
 .fechar-menu{
     display: none;
     position: relative;
@@ -341,6 +345,7 @@ footer {
     background: transparent;
     border: none;
 }
+
 
 @media (max-width: 780px){
 
@@ -487,6 +492,14 @@ h3 {
     width: 98%;
     justify-content: center;
     margin-left: 7px;
+}
+
+.conteudo-servicos img{
+    width: 40%
+}
+
+.conteudo-servicos p {
+    width: 40%
 }
 
 
