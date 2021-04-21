@@ -203,6 +203,7 @@ h3 {
     text-align: center;
     width: 60%;
     margin: 0 auto;
+    margin-bottom: 5%;
 }
 
 .conteudo-servicos div{
@@ -443,7 +444,7 @@ footer {
 
 .equipe h2 {
 width: 100%;
-margin: 0 auto;
+text-align: center;
 }
 
 .caixa-equipe {
