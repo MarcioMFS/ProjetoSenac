@@ -10,79 +10,15 @@
     <link href="css/ajax.css">
 </head>
 
-<body class="">
-    <header class="topo">
-        <div class="centro">
-            <img src="./img/logo.png" id="logo">
-            <button class="menu-mobile" ><img src="img/menu.svg" alt="" ></button>
-            <div class="menu">
-                <button class="fechar-menu" ><img src="img/fechar.svg" alt="" ></button>
-                <nav>
-                    <ul>
-                        <li><a href=".topo">Home</a></li>
-                        <li><a href=".sobre">Sobre</a></li>
-                        <li><a href=".servicos">Serviços</a></li>
-                        <li><a href=".contato">Contato</a></li>
-                    </ul>
-                </nav>
-                
-            </div>
-        </div>
+<body>
+    <!--Topo -->
+    <?php require_once("content/topo.php") ?>
 
-    </header>
-
-    <div>
-        <div class="banner wow animate__animated animate__fadeInUp">
-            <img src="./img/banner.png" alt="Banner Principal">
-        </div>
-    </div>
-
-    <section class="site wow animate__animated animate__fadeInUp">
-        <div class="sites">
-        <h2>Sites Desenvolvidos</h2>
-        <div class="projetos ">
-            <div>
-                <a href="">
-                    <p class="projeto-hover">Projeto para empresa</p>
-                    <img class="img-hover" src="./img/gmd_projects.png" alt="">
-                    
-                </a>
-                
-                <a href="">
-                    <p class="projeto-hover">Projeto para empresa</p>
-                    <img class="img-hover"  src="./img/gmd_projects.png" alt="">
-                    
-                </a>
-                <a href="">
-                    <p class="projeto-hover">Projeto para empresa</p>
-                    <img class="img-hover" src="./img/gmd_projects.png" alt="">
-                    
-                </a>
-            </div>
-
-            <div>
-                <a href="">
-                    <p class="projeto-hover">Projeto para empresa</p>
-                    <img class="img-hover" src="./img/gmd_projects.png" alt="">
-                    
-                </a>
-                <a href="">
-                    <p class="projeto-hover">Projeto para empresa</p>
-                    <img class="img-hover" src="./img/gmd_projects.png" alt="">
-                    
-                </a>
-                <a href="">
-                    <p class="projeto-hover">Projeto para empresa</p>
-                    <img class="img-hover" src="./img/gmd_projects.png" alt="">
-                    
-                </a>
-            </div>
-        </div>
-    </div>
-    </section>
+    <!--Banner -->
+    <?php require_once("content/banner.php") ?>
 
 
-    <section class="sobre wow animate__animated animate__fadeInUp">
+    <section id="sobre" class="sobre wow animate__animated animate__fadeInUp">
 
         <div>
             <h2>Sobre</h2>
@@ -95,7 +31,14 @@
         </div>
     </section>
 
-    <section class="equipe wow animate__animated animate__fadeInUp">
+    <?php require_once("content/projetos.php") ?>
+
+
+    <!-- serviços -->
+    <?php require_once("content/servicos.php") ?>
+
+
+    <section id="equipe" class="equipe wow animate__animated animate__fadeIn">
         <h2 class="white">Equipe</h2>
         
         <div class="caixa-equipe">
@@ -130,88 +73,13 @@
         </div>
     </section>
 
-    <section class="servicos wow animate__animated animate__fadeInUp">
-        <h2 class="centro">Serviços</h2>
-        <div class="conteudo-servicos">
-            <div>
-                <img src="img/services1.png" alt="">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
-            </div>
+    <!-- Contato -->
+    <?php require_once("content/contato.php") ?>
 
-            <div>
-                <img src="img/services2.png" alt="">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
-            </div>
+    <!-- rodapé -->
+    <?php require_once("content/rodape.php") ?>
 
-            <div>
-                <img src="img/services3.png" alt="">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
-            </div>
-
-            <div>
-                <img src="img/services4.png" alt="">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
-            </div>
-        </div>
-
-    </section>
-
-    <section class="contato wow animate__animated animate__fadeInUp">
-    <div class="formulario">
-        <form class="contato-form" id="form" name="contato">
-            <div>
-                <label for="nome">Nome</label>
-                <input type="text" name="name">
-            </div>
-
-            <div>
-                <label for="email">Email</label>
-                <input type="email" name="email" required>
-            </div>
-
-            <div>
-                <label for="tel">Telefone</label>
-                <input type="tel" name="tel">
-            </div>
-        </form>
-        <div class="assunto">
-            <label for="assunto">Assunto</label>
-            <textarea form="form" name="assunto" rows="15" cols="40" required></textarea>
-            <button form="form" type="submit">Enviar</button>
-        </div>
-    </div>
-    <p>Atendimento de seg. a sex. das 8:00 as 18:00</p>
-</section>
-
-    <footer>
-        <div class="img_footer wow animate__animated animate__fadeInUp">
-            <img src="./img/logo.png">
-            <p>GMD criação de sites</p>
-        </div>
-        <div class="menu_rodape">
-            <div>
-                <a href="#">Pagina Inicial</a>
-                <a href="#">Sobre</a>
-                <a href="#">Serviços</a>
-                <a href="#">Contato</a>
-            </div>
-        </div>
-        <p id="gmd">© 2021 GMD SITES</p>
-
-        <div class="dev">
-            <div>
-                <h2>Site desenvolvido por</h2>
-
-                <img src="./img/gmd.png">
-            </div>
-
-        </div>
-
-    </footer>
+    
 
     <script src="js/animations.js"></script>
     <script src="js/wow.min.js"></script>
