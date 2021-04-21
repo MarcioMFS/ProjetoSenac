@@ -11,7 +11,7 @@
 </head>
 
 <body class="">
-    <header class="topo" id="home">
+    <header class="topo">
         <div class="centro">
             <img src="./img/logo.png" id="logo">
             <button class="menu-mobile" ><img src="img/menu.svg" alt="" ></button>
@@ -19,11 +19,10 @@
                 <button class="fechar-menu" ><img src="img/fechar.svg" alt="" ></button>
                 <nav>
                     <ul>
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#sobre">Sobre</a></li>
-                        <li><a href="#servicos">Serviços</a></li>
-                        <li><a href="#equipe">Equipe</a></li>
-                        <li><a href="#contato">Contato</a></li>
+                        <li><a href=".topo">Home</a></li>
+                        <li><a href=".sobre">Sobre</a></li>
+                        <li><a href=".servicos">Serviços</a></li>
+                        <li><a href=".contato">Contato</a></li>
                     </ul>
                 </nav>
                 
@@ -38,20 +37,7 @@
         </div>
     </div>
 
-    <section id="sobre" class="sobre wow animate__animated animate__fadeInUp">
-
-        <div>
-            <h2>Sobre</h2>
-
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan
-                lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                incididunt ut labore et dolore magna aliqua.
-            </p>
-        </div>
-    </section>
-
-    <section id="projetos" class="site wow animate__animated animate__fadeInUp">
+    <section class="site wow animate__animated animate__fadeInUp">
         <div class="sites">
         <h2>Sites Desenvolvidos</h2>
         <div class="projetos ">
@@ -95,38 +81,21 @@
     </div>
     </section>
 
-    <section id="servicos" class="servicos wow animate__animated animate__fadeInUp">
-        <h2 class="centro">Serviços</h2>
-        <div class="conteudo-servicos">
-            <div>
-                <img src="img/services1.png" alt="">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
-            </div>
 
-            <div>
-                <img src="img/services2.png" alt="">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
-            </div>
+    <section class="sobre wow animate__animated animate__fadeInUp">
 
-            <div>
-                <img src="img/services3.png" alt="">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
-            </div>
+        <div>
+            <h2>Sobre</h2>
 
-            <div>
-                <img src="img/services4.png" alt="">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
-            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan
+                lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua.
+            </p>
         </div>
-
     </section>
 
-
-    <section id="equipe" class="equipe wow animate__animated animate__fadeInUp">
+    <section class="equipe wow animate__animated animate__fadeInUp">
         <h2 class="white">Equipe</h2>
         
         <div class="caixa-equipe">
@@ -161,8 +130,37 @@
         </div>
     </section>
 
+    <section class="servicos wow animate__animated animate__fadeInUp">
+        <h2 class="centro">Serviços</h2>
+        <div class="conteudo-servicos">
+            <div>
+                <img src="img/services1.png" alt="">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+            </div>
 
-    <section id="contato" class="contato wow animate__animated animate__fadeInUp">
+            <div>
+                <img src="img/services2.png" alt="">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+            </div>
+
+            <div>
+                <img src="img/services3.png" alt="">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+            </div>
+
+            <div>
+                <img src="img/services4.png" alt="">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="contato wow animate__animated animate__fadeInUp">
     <div class="formulario">
         <form class="contato-form" id="form" name="contato">
             <div>
