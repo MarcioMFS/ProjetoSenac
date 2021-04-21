@@ -341,13 +341,6 @@ footer {
     border: none;
 }
 
-
-@media (max-width: 400){
-    .contato-form input {
-        width:90%;
-    }
-}
-
 @media (max-width: 780px){
 
     .menu{
@@ -507,7 +500,7 @@ h3 {
 }
 
 .contato-form input {
-    width: 300px;
+    width: 85%;
 }
 
 .contato p {
