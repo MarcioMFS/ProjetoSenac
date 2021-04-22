@@ -8,10 +8,14 @@
     <link href="css/style.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link href="css/ajax.css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+
 </head>
 
 <body>
-    <header class="topo" id="home">
+    <header class="topo">
+        <h1>Criação de sites GMD</h1>
         <div class="centro wow animate__animated animate__fadeInUp ">
             <img src="./img/logo.png" id="logo">
             <button class="menu-mobile" ><img src="img/menu.svg" alt="" ></button>
@@ -33,20 +37,21 @@
     </header>
 
     <div>
-        <div class="banner wow animate__animated animate__fadeInUp">
-            <img src="./img/banner.png" alt="Banner Principal">
+        <div class="banner wow animate__animated animate__fadeInUp" id="home">
+
+            <div><a href="#contato"><img src="./img/banner.png" alt="Banner Principal"></a></div>
+            <div><a href="#contato"><img src="/img/banner2.png" alt="Vantagens"></a></div>
+            <div><a href="#contato"><img src="/img/banner3.png" alt="Faça um orçamento!"></a></div>
         </div>
     </div>
-
-    <section id="sobre" class="sobre wow animate__animated animate__fadeInUp">
+<span id="sobre"></span>
+    <section class="sobre wow animate__animated animate__fadeInUp">
 
         <div>
             <h2>Sobre</h2>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan
-                lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                incididunt ut labore et dolore magna aliqua.
+            <p>
+                Criamos a GMD Sites com o intuito de atender às necessidades de comunicação dos nossos clientes, com o foco no desenvolvimento de sites profissionais que promovem sua marca, seus produtos e seus serviços. Nosso principal objetivo é auxiliar o cliente a se estabilizar na internet, oferecendo soluções diferenciadas para que alcancem o sucesso.
             </p>
         </div>
     </section>
@@ -56,13 +61,13 @@
         <h2>Sites Desenvolvidos</h2>
         <div class="projetos ">
             <div>
-                <a href="https://online-supermarket.vercel.app/">
+                <a href="https://online-supermarket.vercel.app/" target="_blank">
                     <img class="img-hover" src="./img/site2.png" alt="">
                     <p class="projeto-hover">Online Supermarket</p>
                     
                 </a>
                 
-                <a href="https://marcio-portifolio.vercel.app/">
+                <a href="https://marcio-portifolio.vercel.app/" target="_blank">
                     <img class="img-hover"  src="./img/site1.png" alt="">
                     <p class="projeto-hover">MFS portifolio</p>
                     
@@ -163,7 +168,10 @@
 
 
     <section id="contato" class="contato wow animate__animated animate__fadeInUp">
-    <div class="formulario">
+        <h2>Faça um orçamento
+            <hr>
+        </h2>
+        <div class="formulario">
         <form class="contato-form" id="form" name="contato">
             <div>
                 <label for="nome">Nome</label>
@@ -215,12 +223,16 @@
 
     </footer>
 
-    <script src="js/animations.js"></script>
     <script src="js/wow.min.js"></script>
     <script>
         new WOW().init();
         </script>
     <script src="js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="js/jquery-migrate.js"></script>
+    <script type="text/javascript" src="js/slick.js"></script>
+    <script src="js/animations.js"></script>
+
+   
 
 </body>
 

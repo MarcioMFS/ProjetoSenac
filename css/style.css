@@ -27,6 +27,16 @@ html {
     align-items: center;
 }
 
+.topo h1{
+    position: absolute;
+    left: -1000px;
+    z-index: -9999px;
+}
+
+.banner{
+    display:flex;
+}
+
 .menu ul {
     display: flex;
     justify-content: flex-end;
@@ -207,6 +217,13 @@ h3 {
 .conteudo-servicos div{
     text-align: center;
     
+}
+
+.contato h2{
+    text-align: center;
+    margin-top:30px ;
+    color: white;
+    font-size: 30pt;
 }
 
 .formulario {
@@ -402,9 +419,14 @@ footer {
         display: block;
     }
 
-    .banner img {
+    .banner div img{
         display:none;
     }
+
+    .slick-prev:before, .slick-next:before {
+        font-size: 0 !important;
+}
+
 
     .sites h2{
         text-align:center;
@@ -416,12 +438,17 @@ footer {
         margin-bottom: 1%;
     }
 
+    .projetos p{
+        margin-bottom: 20%;
+    }
+
     .projetos div {
         padding: 0;
         display: flex;
         flex-direction: column;
         align-items: center;
    }
+
 
    .sobre div h2 {
     margin: 0 auto;
@@ -486,6 +513,7 @@ h3 {
     flex-direction: column;
 }
 
+
 .conteudo-servicos div{
     width: 98%;
     justify-content: center;
@@ -497,8 +525,9 @@ h3 {
 }
 
 .conteudo-servicos p {
-    width: 40%
+    width: 40%;
 }
+
 
 
 .formulario {
