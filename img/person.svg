@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 496 496" style="enable-background:new 0 0 496 496;" xml:space="preserve" width="512px" height="512px" class=""><g><g>
+	<polygon style="fill:#00B7FF" points="368,104 320,88 256,120 208,104 120,136 120,216 368,216  " data-original="#F9BA48" class="active-path" data-old_color="#F9BA48"/>
+	<polygon style="fill:#00B7FF" points="416,496 416,416 496,416  " data-original="#F9BA48" class="active-path" data-old_color="#F9BA48"/>
+</g><g>
+	<path style="fill:#333333;" d="M80,0v336H24c-13.232,0-24,10.768-24,24s10.768,24,24,24h24v8c0,13.232,10.768,24,24,24h8v80h336   v-16H96v-64h38.824l2.312-3.976c2.936-5.032,10.8-5.032,13.736,0l2.304,3.976H176v-16h-14.192c-4.504-5.024-10.984-8-17.808-8   s-13.296,2.976-17.808,8H96v-16h257.472c3.312,9.288,12.112,16,22.528,16c9.072,0,16.896-5.12,20.968-12.568L425,401.448   L476.808,360L425,318.552l-28.032,14.016C392.896,325.12,385.072,320,376,320c-10.416,0-19.216,6.712-22.528,16H96V16h384v400h16V0   H80z M24,368c-4.416,0-8-3.584-8-8s3.584-8,8-8h24v16H24z M80,400h-8c-4.416,0-8-3.584-8-8v-8h16V400z M441.192,352H424v16h17.192   L423,382.552l-23-11.496v-22.112l23-11.504L441.192,352z M376,336c4.416,0,8,3.584,8,8v32c0,4.416-3.584,8-8,8s-8-3.584-8-8v-32   C368,339.584,371.584,336,376,336z M352,368H64v-16h288V368z" data-original="#333333" class=""/>
+	<path style="fill:#333333;" d="M285.032,143.432l5.936-14.856l-19.016-7.6l48.416-24.2L368,115.816V40H120v107.816l88-35.192   L285.032,143.432z M252.616,113.224l-13.336-5.336C245.264,100.512,254.288,96,264,96c5.248,0,10.264,1.32,14.744,3.68   l-26.32,13.16L252.616,113.224z M136,56h216v36.184l-32.368-12.952l-24.64,12.32C286.448,84.216,275.592,80,264,80   c-16.264,0-31.304,8.352-40.072,21.752L208,95.384l-72,28.808V56z" data-original="#333333" class=""/>
+	<rect x="384" y="40" style="fill:#333333;" width="72" height="16" data-original="#333333" class=""/>
+	<rect x="384" y="80" style="fill:#333333;" width="72" height="16" data-original="#333333" class=""/>
+	<rect x="384" y="120" style="fill:#333333;" width="72" height="16" data-original="#333333" class=""/>
+	<rect x="384" y="160" style="fill:#333333;" width="72" height="16" data-original="#333333" class=""/>
+	<rect x="384" y="200" style="fill:#333333;" width="72" height="16" data-original="#333333" class=""/>
+	<polygon style="fill:#333333;" points="160,296 160,256 184,256 184,240 120,240 120,256 144,256 144,296  " data-original="#333333" class=""/>
+	<rect x="208" y="240" style="fill:#333333;" width="248" height="16" data-original="#333333" class=""/>
+	<rect x="208" y="280" style="fill:#333333;" width="248" height="16" data-original="#333333" class=""/>
+</g></g> </svg>
