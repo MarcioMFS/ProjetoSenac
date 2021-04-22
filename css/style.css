@@ -195,7 +195,8 @@ h3 {
 .servicos h2 {
     font-size: 40pt;
     font-weight: 300;
-    width: 200px;
+    text-align: center;
+    margin-bottom: 1%;
 }
 
 .conteudo-servicos {
