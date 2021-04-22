@@ -423,8 +423,12 @@ footer {
         display:none;
     }
 
-    .slick-prev:before, .slick-next:before {
+    .slick-prev, .slick-next{
         font-size: 0 !important;
+        color: white;
+        border: 0 !important;
+        outline: none;
+        background: none !important;
 }
 
 
