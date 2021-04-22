@@ -87,12 +87,10 @@ html {
     transition: 0.2s;
 }
 
-.projeto-hover{
-    position: absolute;
-    width: 10%;
+.projetos div a{
     color: white;
     transition: 0.2s;
-    display: none;
+    text-align: center;
 }
 
 .img-hover:hover {
